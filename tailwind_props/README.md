@@ -1,4 +1,4 @@
-##Props
+## Props
 In React, props (short for properties) are a mechanism for passing data from a parent component to a child component. They are similar to function arguments, allowing you to provide external information to a component, which it can then use to render its UI or perform actions.
 *Porps are immutable (they cannot be changed)*
 
