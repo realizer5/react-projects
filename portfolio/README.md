@@ -53,7 +53,7 @@ const router = createBrowserRouter([
 React Router supports nested routing. In order for child routes to render inside of parent layouts, we need to render an Outlet in the parent. Let's fix it, open up app/root.tsx and render an outlet inside.
 
 Other used Methods in this project
- *createBrowserRouter
- *createRoutesFromELements
- *Route
- *RouterProvider
+ * createBrowserRouter
+ * createRoutesFromELements
+ * Route
+ * RouterProvider
