@@ -1,4 +1,4 @@
-## React route dom
+# React route dom
 
 React Router is a multi-strategy router for React bridging the gap from React 18 to React 19. You can use it maximally as a React framework or minimally as a library with your own architecture.
 
@@ -7,7 +7,7 @@ npm i react-router-dom
 ```
 `react-router-dom` is for web
 
-# NavLink and Link
+## NavLink and Link
 `NavLink` and `Link` can be imported from `react-router-dom`
 they work like html anchor tag `<a>` with some extra features
 `NavLink` gives a callback isActive that can be used in navbars
@@ -16,7 +16,7 @@ they work like html anchor tag `<a>` with some extra features
     : "text-gray-700"}`} >Home</NavLink>
 
 ```
-# useLoaderData hook
+## useLoaderData hook
 this hook can be used to fetch data when hovering on element
 it is usefull to fetch data before user clicks and it increases speed
 
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
 
 ```
 
-# Outlet
+## Outlet
 React Router supports nested routing. In order for child routes to render inside of parent layouts, we need to render an Outlet in the parent. Let's fix it, open up app/root.tsx and render an outlet inside.
 
 Other used Methods in this project

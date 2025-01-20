@@ -1,4 +1,4 @@
-## userContext
+# userContext
 `useContext` is a React Hook that lets you read and subscribe to context from your component.
 
 for example you can create a component somewhere else with states and get those states values in some other component
@@ -7,14 +7,14 @@ for example you can create a component somewhere else with states and get those 
 const value = useContext(SomeContext)
 ```
 
-# createContext
+## createContext
 `createContext` lets you create a context that components can provide or read.
 
 ```jsx
 const SomeContext = createContext(defaultValue)
 ```
 
-# SomeContext.Provider
+## SomeContext.Provider
 
 Wrap your components into a context provider to specify the value of this context for all components inside:
 

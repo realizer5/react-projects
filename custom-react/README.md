@@ -1,4 +1,4 @@
-## Custom React Element
+# Custom React Element
 you can create a custom react element like this
 
 In React.createElement are no keys and HTML elements are defined by order they are provided
