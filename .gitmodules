@@ -1,3 +1,4 @@
 [submodule "codeblog"]
 	path = codeblog
 	url = https://github.com/realizer5/codeblog
+	branch = main
